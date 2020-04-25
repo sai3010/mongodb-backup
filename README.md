@@ -1,5 +1,7 @@
 # mongodb-backup
 A solution to automate mongodb backup
+* https://medium.com/@saiprasanth2007/easy-mongo-backup-solution-to-azure-blob-8fd44d143ede
+* https://hub.docker.com/u/sai3010
 
 # How it works 
 * There is a python script ```mongo-bkp.py``` which connects to mongo db and takes mongo dump.
