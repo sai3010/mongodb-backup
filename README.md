@@ -16,7 +16,7 @@ A solution to automate mongodb backup
     * ```ACCOUNT_KEY```: Azure storage account key
 
 # How to excecute
-* ```docker pull ```
+* ```docker pull sai3010/mongo-azure-backup ```
 *  ```docker run --net=host --rm -e MONGO_HOST="localhost" -e BACKUP_FOLDER="test" -e FILENAME="backup" -e CONTAINER_NAME="mongo" -e ACCOUNT_NAME="data" -e ACCOUNT_KEY="Y76I9TacyJALGJLeEw2cIFw" -it mongo-azure-backup```
     * When the container is run , it connects to mongo , takes a dump and uploads to blob storage.
 
